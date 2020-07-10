@@ -45,7 +45,7 @@ webpackRules.push(cssLoader);
 
 // MiniCssExtractPlugin
 const miniCssExtractPlugin = new MiniCssExtractPlugin({
-    filename: "[name].css",
+    filename: "./dist/css/bundle.css",
     chunkFilename: "[id].css"
 });
 
@@ -62,6 +62,6 @@ module.exports = {
     plugins: webpackPlugins,
     output: {
         path: __dirname,
-        filename: '[name].js',
+        filename: './dist/js/bundle.js',
     }
 }

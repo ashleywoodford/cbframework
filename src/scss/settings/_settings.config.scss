@@ -1,0 +1,70 @@
+
+// MEDIA BREAKPOINTS
+$breakpoint-mobile: 576px;
+$breakpoint-tablet: 768px;
+$breakpoint-laptop: 992px;
+$breakpoint-desktop: 1200px;
+
+// TYPOGRAPHY
+$primary-font: Varela Round, sans-serif;
+
+$typography-spacer: 1rem;
+
+$font-extra-small: $typography-spacer * 0.875;
+$font-smaller: $typography-spacer * 0.9;
+$font-small: $typography-spacer * 0.95;
+$font-medium: $typography-spacer * 1.25;
+$font-large: $typography-spacer * 1.5;
+$font-larger: $typography-spacer * 2;
+$font-extra-large: $typography-spacer * 3;
+
+// CONTAINER WIDTH
+$container-width: 900px;
+
+// SPACING
+
+// SPACING - PADDING
+$padding-xs: .5rem;
+$padding-sm: .75rem;
+$padding-md: 1rem;
+$padding-lg: 2rem;
+$padding-xl: 3rem;
+
+$global-padding-y-xs: $padding-xs;
+$global-padding-x-xs: $padding-xs;
+
+$global-padding-y-sm: $padding-sm;
+$global-padding-x-sm: $padding-sm;
+
+$global-padding-y-md: $padding-md;
+$global-padding-x-md: $padding-md;
+
+$global-padding-y-lg: $padding-lg;
+$global-padding-x-lg: $padding-lg;
+
+$global-padding-y-xl: $padding-xl;
+$global-padding-x-xl: $padding-xl;
+
+// SPACING - MARGIN
+$margin-xs: .5rem;
+$margin-sm: .75rem;
+$margin-md: 1rem;
+$margin-lg: 2rem;
+$margin-xl: 3rem;
+
+$global-margin-y-xs: $margin-xs;
+$global-margin-x-xs: $margin-xs;
+
+$global-margin-y-sm: $margin-sm;
+$global-margin-x-sm: $margin-sm;
+
+$global-margin-y-md: $margin-md;
+$global-margin-x-md: $margin-md;
+
+$global-margin-y-lg: $margin-lg;
+$global-margin-x-lg: $margin-lg;
+
+$global-margin-y-xl: $margin-xl;
+$global-margin-x-xl: $margin-xl;
+
+
